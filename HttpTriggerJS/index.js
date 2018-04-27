@@ -1,0 +1,5 @@
+module.exports = function (context, req) {
+    context.log('JavaScript HTTP trigger function processed a request.');
+    context.log(JSON.stringify(req));
+    context.done();
+};
